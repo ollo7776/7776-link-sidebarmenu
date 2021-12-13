@@ -1,0 +1,65 @@
+
+  .form-add-container {
+      padding-left: 3%;
+      padding-right: 3%;
+}
+  .formadd-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1px;
+    background-color: #929292;
+    padding: 1px;
+    /* width: 90%; */
+  }
+  
+  .formadd-grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 2px 0;
+  }
+  
+  .formadd-item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .formadd-item2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .formadd-item5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+.invalid-feedback {
+    color: red;
+    font-size: small;
+}
+  
+.button-form-add {
+    padding: 1px 5px 3px 5px;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    border: 2px solid #a8a8a8;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    margin: 5px 0 5px 200px;
+  }
+  .button-form-add:hover {
+    background-color: #e7e7e7;
+  }
+  .button-form-add-end {
+    padding: 1px 5px 3px 5px;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    border: 2px solid #a8a8a8;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    margin: 5px 0 5px 0px;
+  }
+  .button-form-add-end:hover {
+    background-color: #e7e7e7;
+  }
